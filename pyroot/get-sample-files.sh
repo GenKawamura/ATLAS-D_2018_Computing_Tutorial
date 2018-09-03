@@ -44,7 +44,7 @@ setupATLAS(){
     source $ATLAS_LOCAL_ROOT_BASE/user/atlasLocalSetup.sh ""
 }
 setupATLAS
-export RUCIO_ACCOUNT=$rucio_account
+[ -z "$RUCIO_ACCOUNT" ] && export RUCIO_ACCOUNT=$rucio_account
 lsetup rucio
 
 ## Selecting a file
