@@ -60,7 +60,7 @@ from ROOT import TH1F, TH2F
 # ====================================================================                                                                                                       
 #subSeq = CfgMgr.AthAnalysisSequencer ("AnaSubSeq",
 #                                     HistToolList = histMgr.ToolList()
-                                     )
+#                                     )
 #algseq += subSeq
 
 # Make a cut: check that we have at least one Z-boson candidate                                                                                                              
